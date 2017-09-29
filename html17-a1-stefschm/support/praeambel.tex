@@ -19,12 +19,12 @@
 \definecolor{grey}{rgb}{0.2,0.2,0.2}
 
 \lstdefinelanguage{Python}{
-keywords={typeof, null, catch, switch, in, int, str, float, self},
+keywords={typeof, null, catch, switch, in, int, str, float, self, from, import},
 keywordstyle=\color{blue}\bfseries,
 ndkeywords={boolean, throw, import},
 ndkeywords={return, class, if ,elif, endif, while, do, else, True, False , catch, def},
 ndkeywordstyle=\color{blue}\bfseries,
-identifierstyle=\color{red},
+identifierstyle=\color{grey},
 sensitive=false,
 comment=[l]{\#},
 morecomment=[s]{/*}{*/},
@@ -33,6 +33,15 @@ stringstyle=\color{green}\ttfamily,
 }
 
 \lstset{language=Python}
+
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+% Remove copyright space
+\makeatletter
+\def\@copyrightspace{\relax}
+\makeatother
 
 % comments and notes
 \newcommand{\comment}[1]{}
