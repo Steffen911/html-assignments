@@ -6,6 +6,7 @@ course at the University of Mannheim in the fall semester 2017.
 ## Assignments
 
 - Linear Regression (Sep 29 - Oct 18): html17-a1-stefschm
+- Naive Bayes (Oct 19 - Nov 05): html17-a2-stefschm
 
 ## Building the documents
 
@@ -17,7 +18,7 @@ The notebooks are build using the [jupyter/scipy-notebook](https://hub.docker.co
 
 Start the docker image with `docker run -dp 8888:8888 --rm --name notebook jupyter/scipy-notebook` to run jupyter locally with all dependencies.
 
-Run `docker cp /path/to/*.mat notebook:/tmp` to move the data into the notebook. Open the jupyter
+Run `docker cp /path/to/data notebook:/tmp` to move the data into the notebook. Open the jupyter
 in the browser afterwards and import the .ipynb file from the UI.
 
 Use `docker logs notebook` to get the browser URL with auth token.
