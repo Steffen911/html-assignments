@@ -8,6 +8,7 @@ course at the University of Mannheim in the fall semester 2017.
 - Linear Regression (Sep 29 - Oct 18): html17-a1-stefschm
 - Naive Bayes (Oct 19 - Nov 05): html17-a2-stefschm
 - Graphical Models (Nov 03 - Nov 26): html17-a3-stefschm
+- Neural Networks (Nov 23 - Dec 05): html17-a4-stefschm
 
 ## Building the documents
 
