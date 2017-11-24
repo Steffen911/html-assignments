@@ -18,7 +18,7 @@ Go into the respective folder and run `xelatex FILENAME.tex` or `/bin/bash build
 
 The notebooks are build using the [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook/).
 
-Start the docker image with `docker run -dp 8888:8888 --name notebook jupyter/scipy-notebook` to run jupyter locally with all dependencies.
+Start the docker image with `docker run -dp 8888:8888 --name notebook jupyter/tensorflow-notebook` to run jupyter locally with all dependencies.
 
 Run `docker cp /path/to/data notebook:/tmp` to move the data into the notebook. Open the jupyter
 in the browser afterwards and import the .ipynb file from the UI.
