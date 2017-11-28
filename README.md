@@ -1,7 +1,7 @@
 # Hot Topics in Machine Learning Assignments
 
-This repository contains the assingments for the Hot Topics in Machine Learning
-course at the University of Mannheim in the fall semester 2017.
+This repository contains the assignments for the course [IE 674 Hot Topics in Machine Learning](http://dws.informatik.uni-mannheim.de/en/teaching/courses-for-master-candidates/ie-674-hot-topics-in-machine-learning/)
+at the University of Mannheim in the fall semester 2017.
 
 ## Assignments
 
@@ -12,15 +12,16 @@ course at the University of Mannheim in the fall semester 2017.
 
 ## Building the documents
 
-Go into the respective folder and run `xelatex FILENAME.tex` or `/bin/bash build.sh`
+Go into the respective folder and run `xelatex FILENAME.tex` or `/bin/bash build.sh` in the
+corresponding subdirectory.
 
-## Running the notebook
+## Running the notebooks
 
-The notebooks are build using the [jupyter/scipy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook/).
+The notebooks are build using the [jupyter/jupyter-notebook](https://hub.docker.com/r/jupyter/tensorflow-notebook/).
 
-Start the docker image with `docker run -dp 8888:8888 --name notebook jupyter/scipy-notebook` to run jupyter locally with all dependencies.
+Start the docker image with `docker run -dp 8888:8888 --name notebook jupyter/tensorflow-notebook` to run jupyter locally with all dependencies.
+It might be necessary to install further Python packages. Stick to the references in the notebooks.
 
-Run `docker cp /path/to/data notebook:/tmp` to move the data into the notebook. Open the jupyter
-in the browser afterwards and import the .ipynb file from the UI.
+Open Jupyter in the browser and import the .ipynb file and the input data from the UI.
 
 Use `docker logs notebook` to get the browser URL with auth token.
