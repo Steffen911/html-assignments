@@ -5,10 +5,10 @@ at the University of Mannheim in the fall semester 2017.
 
 ## Assignments
 
-- Linear Regression (Sep 29 - Oct 18): html17-a1-stefschm
-- Naive Bayes (Oct 19 - Nov 05): html17-a2-stefschm
-- Graphical Models (Nov 03 - Nov 26): html17-a3-stefschm
-- Neural Networks (Nov 23 - Dec 05): html17-a4-stefschm
+- Linear Regression (Sep 29 - Oct 18): [html17-a1-stefschm](https://s3.eu-central-1.amazonaws.com/steffen911-papers/html17-a1-stefschm.pdf)
+- Naive Bayes (Oct 19 - Nov 05): [html17-a2-stefschm](https://s3.eu-central-1.amazonaws.com/steffen911-papers/html17-a2-stefschm.pdf)
+- Graphical Models (Nov 03 - Nov 26): [html17-a3-stefschm](https://s3.eu-central-1.amazonaws.com/steffen911-papers/html17-a3-stefschm.pdf)
+- Neural Networks (Nov 23 - Dec 05): [html17-a4-stefschm](https://s3.eu-central-1.amazonaws.com/steffen911-papers/html17-a4-stefschm.pdf)
 
 ## Building the documents
 
